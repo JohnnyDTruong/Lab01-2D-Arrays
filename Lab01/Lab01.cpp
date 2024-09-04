@@ -47,7 +47,7 @@ int main()
 	cout << "Would you like to update an exam score Y/N?" << endl;
 	cin >> changes;
 
-	while (changes == 'Y') {
+	while (changes == 'Y' || changes == 'y') {
 		cout << "Enter a student's number (1-3): " << endl;
 		cin >> student;
 		cout << "Enter an exam number (1-3): " << endl;
